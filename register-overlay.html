@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Register-Overlay</title>
+</head>
+<body class="body-register">
+    <section class="content-register">
+        <div>
+            <img src="img/Banner_site.png" alt="Banner_site_dog">
+        </div>
+
+
+        <div class="modal" id="modal-overlay"> 
+            <div class="btn-position">
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="img/Group 248.png" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="form-button">
+                <h1 class=" titleform ">Cadastre-se</h1>
+                <div class="form-register double">
+                    <div class="form1">
+                        <div class="form-model">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" />
+                        </div>
+                        <div class="form-model">
+                            <label for="CRMV">CPD</label>
+                            <input type="text" id="crmv" />
+                        </div>
+                        <div class="form-model">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" />
+                        </div>
+                        <div class="form-model">
+                            <label for="endereço">Endereço</label>
+                            <input type="text" id="endereço"  />
+                        </div>
+                        <div class="form-model">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="email" />
+                        </div>
+                        <div class="form-model">
+                            <label for="cep">CEP</label>
+                            <input type="number" id="cep" />
+                        </div>
+
+                        <div class="form-model">
+                            <label for="estado">Estado</label>
+                            <input type="text" id="estado" />
+                        </div>
+                        <div class="form-model">
+                            <label for="telefone">CRMV do prescritor</label>
+                            <input type="number" id="number" />
+                        </div>
+                    </div> <!-- form1 -->
+                </div> <!-- form-register --> 
+                    <div class="btn-check">
+
+                        <button class="bluebutton whitebtn" id="singup"> CARREGUE UMA FOTO DA RECEITA  </button> <!-- SING UP BUTTON -->  
+
+                        <button class="bluebutton" id="singup"> SING UP  </button> <!-- SING UP BUTTON -->
+                      
+                         <div class="checkbox-text">
+                        <input type="checkbox" name="checkbox" id="terms"> By continuing, you agree to accept our <br>
+                        Privacy Policy & Terms of Service.
+                    </div> <!-- btn-check --> 
+                    
+                </div> <!-- checkbox-text --> 
+        </div> <!-- form-button --> 
+    </section> <!-- content-register -->    
+</body>
+</html>

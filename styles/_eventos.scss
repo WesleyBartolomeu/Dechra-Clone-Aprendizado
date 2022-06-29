@@ -1,0 +1,55 @@
+
+
+.eventos {
+
+    margin: 0 25% 0 25%;
+
+}
+.title-events {
+    font-family: 'Roboto', sans-serif;
+
+    
+    h1 {
+        margin-top: 49px;
+
+
+    }
+
+    p {
+        margin-top: 26px;
+        margin-bottom: 36px ;
+    }
+
+
+}
+
+.img-events {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    img {
+        width: 33%;
+    }
+
+}
+
+.btn-evento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 51px;
+
+    button {
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: $witefont;
+        width: 472px;
+        height: 53px;
+        border-radius: 9px;
+        background-color: $bluebutton;
+        border: none;
+    }
+
+}

@@ -1,0 +1,61 @@
+@import './variables';
+@import 'registier';
+@import 'login';
+@import 'benefits';
+@import 'products';
+@import 'rewards';
+@import 'discussiongroup';
+@import 'eventos';
+@import 'home_tutor';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+// -- Home -- // 
+.bodyhome {
+    background-color: $backgroundblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.homecontent {
+    margin-top: 220px;
+    color: $witefont;
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+    .bluebutton {
+        margin: 25px;
+        text-decoration: none;
+        button {
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            width: 300px;
+            height: 40px;
+            border: none;
+            border-radius: 4pt;
+            background-color: $bluebutton;
+            color: $witefont;
+            cursor: pointer;
+        }      
+    }
+}
+
+// -- end home -- // 
+
+

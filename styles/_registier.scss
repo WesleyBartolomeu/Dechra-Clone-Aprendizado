@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.titleform {
+    display: block;
+    width: 100%;
+    &.aligncenter { // Overlay Component 
+        text-align: center;
+    }
+}
+.body-register {
+    background-color: $backgroundwite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-register {
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.form-button {
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;    
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+    }
+}
+.bluebutton {
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 4pt; 
+    background-color: $bluebutton;
+    color: $witefont;
+    cursor: pointer;
+
+    &.whitebtn { // Overlay Component //
+        background-color: $border;
+        color:$witefont ;
+    }
+}
+.form-register {
+    display: flex; 
+    flex-direction: row;
+}
+.form-model {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    label {
+        margin: 5px; 
+        
+    }   
+    input {
+        border-width: 1px;
+        margin: 5px;
+        border-style: solid;
+        border-color: $border;
+        border-radius: 9px;
+        width: 270px;
+        height: 37px;
+        &[type=number]::-webkit-inner-spin-button,
+        &[type=number]::-webkit-outer-spin-button  {
+            -webkit-appearance: none ;
+        }    
+    }
+}
+.form1 {    
+    display: flex;
+    flex-direction: column; 
+
+}   
+.checkbox-text {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    input {
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+}
+.btn-check {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+// Overlay Component //
+
+.modal {
+    width: 414px;
+    height: 237px;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    background-color: $bluebutton;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow:  5px 5px 15px black;
+
+
+
+}
+
+.close-btn {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 17px;
+    cursor: pointer;
+    border: none;
+    color: $witefont;
+    background-color: $bluebutton;
+}
+
+.modal-body {
+    margin: 3% 6% 6% 6%;
+    img {
+        width: 100%;
+    }
+}
+

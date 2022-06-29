@@ -1,0 +1,105 @@
+
+.header_search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: $backgroundheader;
+    border: none;
+    input {
+        border: none;
+        width: 860px;
+        height: 60px;
+        border: none;
+        background-color: $backserch;
+    }
+
+    img {
+        height: auto;
+    }
+}
+
+.background-img {
+    background-blend-mode: multiply;
+    background-color: #00437d93;
+    background-image: url(/img/background_tutor_dog.png);
+    background-size: cover; 
+}
+.background-overlay {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: $overlayblue;
+}
+.modal-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
+}
+.modal-header {
+    height: 170px;
+    width: 740px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #00437D;
+    border: solid 1px $borderoverlay;
+    border-radius: 20px 0 0 0;
+
+    img {
+        color: azure;
+    }
+    button {
+        cursor: pointer;
+        position: absolute;
+        right: -25px;
+        top: -25px;
+        font-size: 30px;
+        width: 53px;
+        height: 53px;
+        border-radius: 100%;
+        border: none;
+    }
+}
+.modal-body {
+    border-radius: 0 0 20px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $greybackground;
+    width: 740px;
+    height: 360px;
+
+    p {
+        margin-bottom: 23px;
+        margin-top: 36px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        text-align: center;
+        font-weight: 500;
+    }
+    button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        border: none;
+        background-color:$bluebutton ;
+        border-radius: 10px;
+        width: 323px;
+        height: 48px;
+        color: $witefont;
+        cursor: pointer;
+    }
+    img {
+        margin-top: 48px;
+        width: 75%;
+    }
+}
