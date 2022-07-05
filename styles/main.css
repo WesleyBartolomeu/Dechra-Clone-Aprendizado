@@ -181,40 +181,30 @@
   width: 414px;
   height: 237px;
   position: fixed;
-  left: 20%;
-  top: 20%;
+  left: 30%;
+  top: 30%;
   background-color: #2C3D72;
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   -webkit-box-shadow: 5px 5px 15px black;
           box-shadow: 5px 5px 15px black;
+}
+
+.modal img {
+  margin-left: 5%;
+  width: 90%;
+  height: 60%;
 }
 
 .close-btn {
   font-size: 30px;
   margin-top: 10px;
-  margin-right: 17px;
+  margin-left: 380px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   cursor: pointer;
   border: none;
   color: #FFFFFF;
   background-color: #2C3D72;
-}
-
-.modal-body {
-  margin: 3% 6% 6% 6%;
-}
-
-.modal-body img {
-  width: 100%;
 }
 
 .bodyalign {

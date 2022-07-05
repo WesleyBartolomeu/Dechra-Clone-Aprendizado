@@ -116,33 +116,32 @@
     width: 414px;
     height: 237px;
     position: fixed;
-    left: 20%;
-    top: 20%;
+    left: 30%;
+    top: 30%;
     background-color: $bluebutton;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     box-shadow:  5px 5px 15px black;
 
-
+    img {
+        margin-left: 5%;
+        width: 90%;
+        height: 60%;
+ 
+    }
 
 }
+
+
 
 .close-btn {
     font-size: 30px;
     margin-top: 10px;
-    margin-right: 17px;
+    margin-left: 380px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
     border: none;
     color: $witefont;
     background-color: $bluebutton;
-}
 
-.modal-body {
-    margin: 3% 6% 6% 6%;
-    img {
-        width: 100%;
-    }
 }
-
